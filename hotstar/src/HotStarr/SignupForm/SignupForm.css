@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 17, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Signupform{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(26, 26, 66);
+    color: white;
+    padding-left: 10px;
+}

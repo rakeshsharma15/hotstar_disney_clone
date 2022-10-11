@@ -1,0 +1,49 @@
+
+.im{
+    width: 97%;
+    height: 370px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.slick-arrow{ 
+    color: black;
+}
+.slick-prev{
+    z-index: 100;
+    left: 18px !important;
+}
+.slick-next{
+    z-index: 100;
+    right: 20px !important;
+}
+.caro{
+    width: 1200px;
+    height: 385px;  
+    margin: auto;
+}
+.caro .slick-list{
+    overflow: visible;
+}
+@media only screen and (max-width:650px){
+    .im{
+        width: 95%;
+        height: 274px;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .caro{
+        width: 630px;
+        height: 285px;
+        margin: auto;
+    }
+    .fa-angle-left{
+        display: none;
+    }
+    .fa-angle-right{
+        display: none;
+    }
+}
